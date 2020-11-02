@@ -1,0 +1,346 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 99%;
+    height: 70px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgba(139, 65, 133, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja1, .caja2, .caja3 {
+    margin: 7px 7px 7px 7px;
+    width: 450px;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Cajas*/
+
+.caja2 {
+    font-family: "Amazon Ember", Arial, sans-seri;
+}
+
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6 {
+    border: 1px solid black;
+    margin: 7px 7px 7px 7px;
+    height: 35px;
+    width: 55px;
+}
+
+.item2, .item3 {
+    border: 1px solid black;
+    margin: 7px 7px 7px 7px;
+    height: 35px;
+    width: 55px;
+}
+
+.search {
+    margin: 7px 7px 7px 7px;
+    height: 35px;
+    width: 250px;
+}
+
+.search input {
+    margin: 7px 0px 7px 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.search .bus {
+    background-color: palevioletred;
+    border-radius: 5px;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*-------------Main---------------*/
+
+main {
+    width: 99%;
+    height: 450px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+hr {
+    margin-left: 10px;
+    width: 150px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+/*---------------------------------*/
+
+.caja-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-a {
+    width: 650px;
+    height: 400px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.info {
+    margin-top: 10px;
+    width: 650px;
+    height: 400px;
+}
+
+.img-a {
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Info*/
+
+.tite, .desc {
+    margin-left: 10px;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.tite2, .tite3 {
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+
+.tallas button {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.color button {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+/*conte*/
+
+.color {
+    color: white;
+}
+
+.conte {
+    width: 98%;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.boton-ana {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.menu-des {
+    margin-top: 6px;
+    height: 20px;
+}
+
+/*-----------otro------------*/
+
+section {
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.secc1 {
+    width: 99%;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ropa1, .ropa2, .ropa3 {
+    border: 1px solid lightslategray;
+    width: 250px;
+    height: 300;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    box-shadow: 3px 4px 6px cadetblue;
+}
+
+.secc2 {
+    width: 99%;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Dentro de secc*/
+
+.imagen {
+    height: 65%;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 7px 7px 5px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+.desc {
+    height: 15%;
+    width: 95%;
+    border-radius: 5px;
+    margin: 7px 7px 5px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+.secc1 button {
+    color: white;
+    width: 100px;
+    margin-left: 80px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.secc2 button {
+    color: white;
+    width: 100px;
+    margin-left: 80px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*---------------------------------*/
+
+.main-pagos {
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.pagos {
+    width: 86%;
+    margin-top: 15px;
+    margin-left: 90px;
+    text-align: center;
+    height: 115px;
+    display: flex;
+    justify-content: start;
+}
+
+.arti {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*------------------fiin-----------------------*/
+
+footer {
+    background-color: rgba(139, 65, 133, 0.5);
+    width: auto;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*---------*/
+
+.conte .color2 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.mess {
+    font-size: 12px;
+}
